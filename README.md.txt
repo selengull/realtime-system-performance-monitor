@@ -1,16 +1,16 @@
-# 🖥️ Real-Time System Performance & Task Monitor (Python GUI)
+ 🖥️ Real-Time System Performance & Task Monitor (Python GUI)
 
 Bu proje, bilgisayarın CPU ve RAM kaynak kullanımını gerçek zamanlı olarak izleyen, dinamik grafiklerle görselleştiren ve arka planda çalışan süreçleri analiz eden Python tabanlı bir masaüstü uygulamasıdır.
 
 ---
 
-## 📸 Ekran Görüntüsü
+ 📸 Ekran Görüntüsü
 
 ![Uygulama Ekranı](preview.png)
 
 ---
 
-## 🚀 Temel Özellikler
+ 🚀 Temel Özellikler
 
 * **Gerçek Zamanlı Metrikler:** `psutil` kütüphanesi ile anlık CPU ve RAM kullanım oranlarının takibi.
 * **Dinamik Veri Görselleştirme:** Matplotlib kullanılarak son 50 saniyelik verinin kayan pencereli (sliding window) grafikler üzerinde gösterimi; anlık ortalama, maksimum ve minimum referans çizgileri.
@@ -18,19 +18,18 @@ Bu proje, bilgisayarın CPU ve RAM kaynak kullanımını gerçek zamanlı olarak
 * **Değişim Vurgulama:** Süreçlerin bellek kullanımındaki anlık değişimlerin görsel olarak renklendirilmesi.
 
 ---
+  🛠️ Kullanılan Teknolojiler
 
-## 🛠️ Kullanılan Teknolojiler
-
-* **Python 3**
-* **Tkinter & ttk:** Masaüstü kullanıcı arayüzü ve tablo bileşenleri
-* **Matplotlib (`FigureCanvasTkAgg`):** Gömülü dinamik grafikler
-* **psutil:** Sistem kaynakları ve süreç yönetimi
-* **NumPy:** Sayısal veri kaydırma ve istatistiksel hesaplamalar
-* **Pillow (PIL):** Arayüz görsel yönetimi
+ **Python 3**
+ **Tkinter & ttk:** Masaüstü kullanıcı arayüzü ve tablo bileşenleri
+ **Matplotlib (`FigureCanvasTkAgg`):** Gömülü dinamik grafikler
+ **psutil:** Sistem kaynakları ve süreç yönetimi
+ **NumPy:** Sayısal veri kaydırma ve istatistiksel hesaplamalar
+ **Pillow (PIL):** Arayüz görsel yönetimi
 
 ---
 
-## ⚙️ Kurulum ve Çalıştırma
+ ⚙️ Kurulum ve Çalıştırma
 
 
 1. Repoyu klonlayın:
